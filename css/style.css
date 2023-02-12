@@ -158,3 +158,136 @@ body {
 .card:hover .card-icon {
     fill: #fff;
 }
+
+
+.offers {
+
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #C5C9D5;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.offer-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #F2F3F6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fff url("../img/tehnopark.png") no-repeat center / contain;
+}
+
+.offer-title {
+    margin-left: 20px;
+}
+
+.offer-heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.offer-place {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.offer-salary {
+    margin-left: 46px;
+    margin-right: 62px;
+    font-weight: 700;
+    color: #fff;
+    background: #1A75E8;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.more {
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A75E8;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.offers-more {
+
+}
+
+
+.subscribe {
+    background: #F2F3F6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.subscribe-form {
+    max-width: 460px;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 20px;
+}
+
+.subscribe-subtitle {
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+
+.footer {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.footer-desc {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-desc,
+.footer-copyright {
+    font-size: 12px;
+    line-height: 140%;
+    color: #B2B2B2;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-list-link {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #111238;
+    margin-bottom: 10px;
+    display: block;
+}
